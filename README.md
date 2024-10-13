@@ -32,38 +32,8 @@ To install the dependencies required for the project, you can use pip. Follow th
 
 Clone this repository:
 
-bash
-Copy code
-git clone https://github.com/your-repo-url/hpc-optimization-project.git
-cd hpc-optimization-project
-Install the required Python libraries:
 
-bash
-Copy code
-pip install -r requirements.txt
-Note: Ensure you have the correct version of Python and the necessary libraries installed.
-
-Running the Code
-To run the Python program that demonstrates cache optimization, execute the following command in the project directory:
-
-bash
-Copy code
-python cache_optimization.py
-Project Structure
-bash
-Copy code
-hpc-optimization-project/
-├── cache_optimization.py      # Python file with cache optimization code
-├── data/                      # Directory to store input data (if any)
-├── results/                   # Directory to store output and performance results
-├── screenshots/               # Contains images for documentation and presentation
-├── README.md                  # Project documentation
-├── requirements.txt           # Required dependencies
-Optimization Technique: Cache Optimization
-The project uses cache optimization to improve data locality by arranging computations and data in such a way that frequently accessed data is stored in the cache. This significantly reduces cache misses and improves the overall execution performance of the program.
 
 Results
 After running the program, the performance improvements before and after cache optimization will be displayed. You can compare the execution times and analyze how the optimization has enhanced performance.
 
-Contributing
-If you'd like to contribute to this project, feel free to open an issue or submit a pull request. All contributions are welcome!
